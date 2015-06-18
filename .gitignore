@@ -1,0 +1,10 @@
+*.swp
+*~.nib
+*.orig
+*.xcworkspace
+build
+DerivedData
+xcuserdata
+Pods
+.DS*
+.idea
