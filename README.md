@@ -18,7 +18,8 @@ Add subscontrollers in one line.
     // add subcontroller to custom view
     [self addSubcontroller:self.customSubcontroller toView:self.customView];
     // add subcontroller to custom view with custom frame
-    [self addSubcontroller:self.frameSubcontroller toView:self.customView frame:CGRectMake(0.f, 0.f, 100.f, 100.f)];
+    [self addSubcontroller:self.frameSubcontroller toView:self.customView
+                     frame:CGRectMake(0.f, 0.f, 100.f, 100.f)];
 }
 ...
 - (void)removeSubcontrollers
@@ -27,6 +28,7 @@ Add subscontrollers in one line.
     [self.customSubcontroller removeFromParentController];
     [self.frameSubcontroller removeFromParentController];
 }
+...
 ```
 
 
