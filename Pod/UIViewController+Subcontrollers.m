@@ -17,7 +17,7 @@
 
 - (void)addSubcontroller:(UIViewController *)subcontroller toView:(UIView *)view
 {
-    [self addSubcontroller:subcontroller toView:view frame:view.frame];
+    [self addSubcontroller:subcontroller toView:view frame:view.bounds];
 }
 
 - (void)addSubcontroller:(UIViewController *)subcontroller toView:(UIView *)view frame:(CGRect)frame
